@@ -1,3 +1,4 @@
+
 export const categories = ['All', 'Puzzle', 'Arcade', 'Action', 'Sports'];
 
 export const gamesData = [
@@ -28,7 +29,7 @@ export const gamesData = [
     description: "Aim, shoot, pop bubbles and clear levels!",
     image: "/assets/games/game-03.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "bubble-blast",
   },
   {
@@ -38,7 +39,7 @@ export const gamesData = [
     description: "Defend the city and destroy incoming targets!",
     image: "/assets/games/game-04.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "toilet-tactics",
   },
   {
@@ -48,7 +49,7 @@ export const gamesData = [
     description: "Knock down all the pins.",
     image: "/assets/games/game-05.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "bowlexa",
   },
   {
@@ -58,7 +59,7 @@ export const gamesData = [
     description: "Slice through obstacles with precision timing.",
     image: "/assets/games/game-06.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "blade-master",
   },
   {
@@ -68,7 +69,7 @@ export const gamesData = [
     description: "Fast-paced slicing action against the clock.",
     image: "/assets/games/game-07.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "slice-storm",
   },
   {
@@ -78,7 +79,7 @@ export const gamesData = [
     description: "Solve mechanical puzzles and challenges.",
     image: "/assets/games/game-08.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "nutcraft",
   },
   {
@@ -88,8 +89,18 @@ export const gamesData = [
     description: "Match and crush blocks for high scores.",
     image: "/assets/games/game-09.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "block-crush",
+  },
+  {
+    id: 10,
+    title: "Cosmo Warrior",
+    category: "Arcade",
+    description: "Fight enemies, survive space battles, and earn rewards!",
+    image: "/assets/games/game-10.jpeg",
+    cost: 20,
+    playable: false,
+    component: null,
   },
   {
     id: 11,
@@ -98,7 +109,7 @@ export const gamesData = [
     description: "Manage water flow and solve puzzles.",
     image: "/assets/games/game-11.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "aqua-fill",
   },
   {
@@ -108,7 +119,7 @@ export const gamesData = [
     description: "Find hidden words in the grid.",
     image: "/assets/games/game-12.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "word-hunt",
   },
   {
@@ -118,7 +129,7 @@ export const gamesData = [
     description: "Eat apples, solve puzzles, win!",
     image: "/assets/games/game-13.jpeg",
     cost: 20,
-    playable: true,
+    playable: false,
     component: "wormzy",
-  }
+  },
 ];
