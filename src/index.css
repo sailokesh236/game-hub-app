@@ -73,10 +73,10 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   user-select: none;
-  transition: transform 300ms ease;
+  
 }
 
 .game-banner-card:hover .game-banner-image > img {
